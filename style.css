@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    background-color: #0B243E;
+    color: white;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.logo {
+    position: absolute;
+    top: 30px;
+    left: 248px;
+    width: 100px;
+}
+
+.hire-me-btn {
+    position: absolute;
+    top: 50px;
+    right: 248px;
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Sofia Sans;
+}
+
+.profile-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: url(background.jpg)  no-repeat fixed center;
+    padding: 50px;
+    border-radius: 20px;
+    height: 400px;
+    border-style: solid;
+    border-width: thin;
+    border-color: #66FCF1;
+}
+
+.profile-photo {
+    width: 300px;
+    border-radius: 10px;
+  
+    
+}
+
+.profile-info {
+    max-width: 600px;
+   
+}
+
+.profile-info h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #66FCF1;
+    font-size: Inter;
+}
+
+.profile-info h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.profile-info p {
+    margin: 5px 0;
+    font-style: Inter;
+}
+
+.download-cv-btn {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 50px;
+    padding: 30px 0;
+    background-color: #0a1620;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: thin;
+    border-color: #66FCF1;
+
+}
+
+.project-section h3 {
+    font-size: 3.0em;
+    color: #66FCF1;
+    font-family: 
+}
+
+.project-section p {
+    font-size: 1.2em;
+    margin-top: 10px;
+    color: light gray;
+    
+}
+
+.project-icon {
+    top: 50px;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.project-logo {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: thin;
+    border-color: #66FCF1;
+    border-radius: 50px;
+    background-color: #0B243E;
+    position: center;
+    bottom: 100px;
+}
